@@ -1,0 +1,16 @@
+.logo-vertical {
+    margin-top: 8px;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-label{
+    margin-left: 8px !important;
+    color: #4A92DF;
+    font-size: 38px !important;
+    font-weight: 700 !important;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-light.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-nnuwmp).ant-menu-light>.ant-menu.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-nnuwmp).ant-menu-light.ant-menu-root.ant-menu-vertical, :where(.css-dev-only-do-not-override-nnuwmp).ant-menu-light>.ant-menu.ant-menu-root.ant-menu-vertical {
+    border-inline-end: none;
+}

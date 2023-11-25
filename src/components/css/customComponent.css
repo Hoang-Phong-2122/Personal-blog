@@ -1,0 +1,20 @@
+/*custom table*/
+:where(.css-dev-only-do-not-override-nnuwmp).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-nnuwmp).ant-table-wrapper .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-nnuwmp).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-nnuwmp).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-nnuwmp).ant-table-wrapper tfoot>tr>td{
+    padding: 8px;
+}
+
+/*custom menu*/
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu{
+    font-size: 13px;
+}
+/*custom active menu*/
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu .ant-menu-item .ant-menu-item-icon svg,
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu .ant-menu-submenu-title .ant-menu-item-icon svg{
+    stroke: #1A1D1F;
+}
+
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title svg,
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title >.ant-menu-item-icon svg{
+    stroke: #1677ff !important;
+}
+

@@ -1,0 +1,17 @@
+.customButton:hover {
+    background-color: #4A92DF !important;
+    color: white !important;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+@media screen and (max-width: 992px) {
+    .flexEnd {
+        justify-content: unset !important;
+    }
+}
+
