@@ -11,7 +11,6 @@ import {createTheme} from './theme';
 import CssBaseline from '@mui/material/CssBaseline';
 import {Toaster} from "react-hot-toast";
 import {AuthProvider, AuthConsumer} from "./contexts/jwt-context";
-import {AuthGuard} from "./components/authentication/auth-guard";
 import {SplashScreen} from "./components/splash-screen";
 import {ConfigProvider, App as AppProvider} from "antd";
 import locale from "antd/locale/vi_VN";
