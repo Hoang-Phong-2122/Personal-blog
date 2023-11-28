@@ -44,10 +44,10 @@
       "yup": "^1.2.0"
    },
    "scripts": {
-      "start": "PORT=3006 react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
+      "start": "PORT=3006 craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "craco eject"
    },
    "eslintConfig": {
       "extends": [
@@ -69,7 +69,12 @@
    },
    "devDependencies": {
       "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+      "@craco/craco": "^7.1.0",
       "@types/lodash": "^4.14.202",
-      "prettier": "3.1.0"
+      "craco-esbuild": "^0.5.2",
+      "eslint": "^8.54.0",
+      "eslint-config-prettier": "^9.0.0",
+      "eslint-plugin-prettier": "^5.0.1",
+      "prettier": "^3.1.0"
    }
 }
