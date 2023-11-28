@@ -1,0 +1,47 @@
+.sider {
+   background-color: white !important;
+   overflow: auto;
+   height: calc(100vh - 106px);
+   padding: 10px;
+}
+.siderLeft {
+   border-right: solid 1px lightgray;
+}
+.siderRight {
+   border-left: solid 1px lightgray;
+}
+.content {
+   padding: 20px;
+   overflow: scroll;
+   background-color: white !important;
+}
+.itemContainer {
+   padding: 10px;
+   border-bottom: solid 1px lightgray;
+}
+.configContent {
+   padding-top: 50px;
+   min-height: 200px;
+   position: relative;
+}
+.over {
+   border: orange solid 1px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.actionBtn {
+   position: absolute;
+   right: -10px;
+   top: -10px;
+}
+.btnRemove {
+   margin-left: 5px;
+}
+.imgPreview {
+   max-height: calc(50vh);
+}
+.btnGroup {
+   position: absolute;
+   right: 0px;
+   top: 0px;
+}

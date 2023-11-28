@@ -1,4 +1,4 @@
 export const appColor = {
-    grey: '#6F767E',
-    white: '#FFF'
+   grey: '#6F767E',
+   white: '#FFF',
 }

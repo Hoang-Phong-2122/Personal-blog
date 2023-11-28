@@ -1,0 +1,15 @@
+{
+   "singleQuote": true,
+   "semi": false,
+   "printWidth": 125,
+   "bracketSameLine": false,
+   "embeddedLanguageFormatting": "auto",
+   "htmlWhitespaceSensitivity": "css",
+   "insertPragma": false,
+   "jsxSingleQuote": false,
+   "proseWrap": "preserve",
+   "quoteProps": "as-needed",
+   "requirePragma": false,
+   "tabWidth": 3,
+   "trailingComma": "es5"
+}

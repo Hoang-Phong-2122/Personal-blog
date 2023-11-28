@@ -1,9 +1,7 @@
-import React from 'react';
-import {Layout} from "antd";
+import React from 'react'
+import { Layout } from 'antd'
 
-const {Footer} = Layout;
+const { Footer } = Layout
 export const MainFooter = () => {
-    return (
-        <Footer style={{textAlign: 'center'}}>Ant Design ©2023 Created by Ant UED</Footer>
-    );
-};
+   return <Footer style={{ textAlign: 'center' }}>Ant Design ©2023 Created by Ant UED</Footer>
+}

@@ -1,4 +1,1 @@
-export const EXCEPT_ROUTE = [
-  '/dashboard/config',
-  '/xem-benh-nhan-tai-co-so-kcb',
-]
+export const EXCEPT_ROUTE = ['/dashboard/config', '/xem-benh-nhan-tai-co-so-kcb']

@@ -34,5 +34,5 @@
 // ];
 //
 
-const router: never[] = [];
-export default router;
+const router: never[] = []
+export default router
